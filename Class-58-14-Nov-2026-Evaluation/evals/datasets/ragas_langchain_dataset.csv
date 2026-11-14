@@ -1,0 +1,13 @@
+question,expected_answer
+What is Ragas?,"Ragas is an evaluation framework
+for LLM applications."
+How do Ragas experiments work?,"Ragas experiments provide systematic evaluation,
+track results, compare different application versions,
+and store experiment outputs."
+What do Ragas metrics do?,"Ragas metrics evaluate properties and quality
+of AI or LLM application outputs."
+What is RAG?,"RAG stands for Retrieval-Augmented Generation.
+
+It retrieves relevant information from a knowledge
+source and provides that context to an LLM
+before answer generation."

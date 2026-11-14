@@ -1,4 +1,4 @@
-question,grading_notes
+question,expected_answer
 What is Ragas?,"Ragas is an evaluation framework
 for LLM applications."
 How do Ragas experiments work?,"Ragas experiments provide systematic evaluation,

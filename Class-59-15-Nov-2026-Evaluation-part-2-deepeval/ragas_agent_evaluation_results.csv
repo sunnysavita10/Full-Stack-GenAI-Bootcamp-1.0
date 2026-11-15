@@ -19,7 +19,7 @@ and find a 4-star hotel in Dubai.","Here are the options for your trip from Bang
 2. **Hilton Garden Inn Dubai**
    - Price: ₹9,200 per night
 
-You can choose the flight and hotel that best suit your preferences and budget. Let me know if you need further assistance!",[],"[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]",0.0,0.0,1.0
+You can choose the flight and hotel that best suit your preferences and budget. Let me know if you need further assistance!","[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]","[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]",1.0,1.0,1.0
 Find flights from Bangalore to Singapore.,"Here are the available flights from Bangalore to Singapore:
 
 1. **Emirates EK569**
@@ -30,10 +30,10 @@ Find flights from Bangalore to Singapore.,"Here are the available flights from B
    - Price: ₹24,500
    - Type: 1 stop
 
-Let me know if you need more information!",[],"[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]",0.0,0.0,1.0
+Let me know if you need more information!","[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]","[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]",1.0,1.0,1.0
 Find a 5-star hotel in Mumbai.,"Here are some 5-star hotels in Mumbai:
 
 1. **Novotel Mumbai** - ₹8,500 per night
 2. **Hilton Garden Inn Mumbai** - ₹9,200 per night
 
-Let me know if you need more information!",[],"[""find_hotels({'city': 'Mumbai', 'stars': 5})""]",0.0,0.0,1.0
+Let me know if you need more information!","[""find_hotels({'city': 'Mumbai', 'stars': 5})""]","[""find_hotels({'city': 'Mumbai', 'stars': 5})""]",1.0,1.0,1.0

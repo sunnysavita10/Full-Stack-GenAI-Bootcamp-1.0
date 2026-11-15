@@ -1,0 +1,41 @@
+question,response,expected_tools,actual_tool_calls,tool_correctness,tool_correctness_reason,argument_correctness,argument_correctness_reason,goal_accuracy,goal_accuracy_reason
+"Plan a Dubai trip from Bangalore.
+Find flights from Bangalore to Dubai
+and find a 4-star hotel in Dubai.","Here’s a simple Dubai trip plan from Bangalore:
+
+### Flights: Bangalore → Dubai
+1. **Emirates EK569** — **₹28,000**  
+   - Non-stop
+
+2. **Air India AI995** — **₹24,500**  
+   - 1 stop
+
+### 4-star hotels in Dubai
+1. **Novotel Dubai** — **₹8,500 per night**
+2. **Hilton Garden Inn Dubai** — **₹9,200 per night**
+
+If you want, I can also help you compare the best flight + hotel combo for budget or convenience.","[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]","[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]",1.0,"[
+	 Tool Calling Reason: All expected tools ['search_flights', 'find_hotels'] were called (order not considered).
+	 Tool Selection Reason: No available tools were provided to assess tool selection criteria
+]
+",1.0,"The score is 1.00 because the request was fully aligned with planning a Dubai trip from Bangalore, including finding flights and a 4-star hotel in Dubai, with no incorrect tool calls.",0.625,"The agent failed because its final combined score of 0.625 is below the 0.7 threshold. Task execution was only partially successful: it provided flights and 4-star hotels, but the trip plan lacked key booking details and enough context to make the results reliably usable. Planning was stronger at 0.75, since it followed a clear two-step approach aligned to the request, but the plan itself was too minimal to compensate for the weaker execution."
+Find flights from Bangalore to Singapore.,"Here are the available flights from Bangalore to Singapore:
+
+1. Emirates EK569 — ₹28,000 — Non-stop  
+2. Air India AI995 — ₹24,500 — 1 stop
+
+If you want, I can help you compare them by price, duration, or convenience.","[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]","[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]",1.0,"[
+	 Tool Calling Reason: All expected tools ['search_flights'] were called (order not considered).
+	 Tool Selection Reason: No available tools were provided to assess tool selection criteria
+]
+",1.0,The score is 1.00 because the request was handled correctly and there were no incorrect tool calls—great job keeping it accurate and aligned with the input.,0.5,"The agent failed because both its task execution and planning were only partial, resulting in a final score of 0.5, which is below the 0.7 threshold. On execution, it returned only two flight options and omitted key booking details like dates, times, and completeness of results, so the flight-finding task was not fully satisfied. On planning, it followed a very minimal search-then-present approach, but the plan lacked important search parameters and selection criteria, which limited the quality of the outcome."
+Find a 5-star hotel in Mumbai.,"Here are 5-star hotels in Mumbai:
+
+1. Novotel Mumbai — ₹8,500 per night  
+2. Hilton Garden Inn Mumbai — ₹9,200 per night
+
+If you want, I can also help compare them or suggest based on budget/location.","[""find_hotels({'city': 'Mumbai', 'stars': 5})""]","[""find_hotels({'city': 'Mumbai', 'stars': 5})""]",1.0,"[
+	 Tool Calling Reason: All expected tools ['find_hotels'] were called (order not considered).
+	 Tool Selection Reason: No available tools were provided to assess tool selection criteria
+]
+",1.0,The score is 1.00 because the request was fully and correctly handled with no incorrect tool calls—great job staying accurate and on track.,0.625,"The agent failed because its combined score of 0.625 is below the 0.7 threshold. Task execution was only partially successful: it identified 5-star hotels in Mumbai, but the answer was incomplete because it presented just two options without indicating whether they were representative or exhaustive. Planning was stronger at 0.75, with a logical and mostly well-followed approach, but it was still minimal and did not account for fuller result selection or presentation."

@@ -1,0 +1,42 @@
+question,response,actual_tool_calls,reference_tool_calls,tool_call_accuracy,tool_call_f1,agent_goal_accuracy
+"Plan a Dubai trip from Bangalore.
+Find flights from Bangalore to Dubai
+and find a 4-star hotel in Dubai.","Here are the details for your trip from Bangalore to Dubai:
+
+### Flights from Bangalore to Dubai:
+1. **Emirates EK569**
+   - Price: ₹28,000
+   - Type: Non-stop
+
+2. **Air India AI995**
+   - Price: ₹24,500
+   - Type: 1 stop
+
+### 4-Star Hotels in Dubai:
+1. **Novotel Dubai**
+   - Price: ₹8,500 per night
+
+2. **Hilton Garden Inn Dubai**
+   - Price: ₹9,200 per night
+
+Let me know if you need any more information or assistance with your trip!",[],"[""search_flights({'origin': 'Bangalore', 'destination': 'Dubai'})"", ""find_hotels({'city': 'Dubai', 'stars': 4})""]",0.0,0.0,1.0
+Find flights from Bangalore to Singapore.,"Here are the available flights from Bangalore to Singapore:
+
+1. **Emirates EK569**
+   - Price: ₹28,000
+   - Type: Non-stop
+
+2. **Air India AI995**
+   - Price: ₹24,500
+   - Type: 1 stop
+
+Let me know if you need more information or assistance with booking!",[],"[""search_flights({'origin': 'Bangalore', 'destination': 'Singapore'})""]",0.0,0.0,1.0
+Find a 5-star hotel in Mumbai.,"Here are some available 5-star hotels in Mumbai:
+
+1. **Novotel Mumbai**
+   - Price: ₹8,500 per night
+
+2. **Hilton Garden Inn Mumbai**
+   - Price: ₹9,200 per night
+
+Let me know if you need more information or assistance!",[],"[""find_hotels({'city': 'Mumbai', 'stars': 5})""]",0.0,0.0,1.0

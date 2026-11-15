@@ -57,3 +57,4 @@ guardrails-ai-detect-pii
 guardrails-ai-regex-match 
 guardrails-ai-detect-jailbreak
 ragas
+deepeval
